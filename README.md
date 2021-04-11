@@ -1,1 +1,1 @@
-##Easings and Splines for UI animations
+## Easings and Splines for UI animations
