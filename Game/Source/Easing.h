@@ -55,12 +55,7 @@ struct SplineInfo {
 
 		// TODO 1: Create the constructor saving all the values given. The timePassed is given by the internal SDL ticks.
 
-		this->position = position;
-		this->initialPosition = *position;
-		this->finalPosition = finalPosition - *position;
-		this->type = type;
-		this->totalTime = totalTime;
-		timePassed = SDL_GetTicks();
+	
 	}
 };
 

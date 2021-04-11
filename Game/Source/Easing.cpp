@@ -75,47 +75,13 @@ bool SplineInfo::Update(float dt)
 	bool ret = true;
 
 	// TODO 2: Calculate the time that has passed since the function has started, so we can track the spline. It uses also the SDL ticks
-	float timeCounter = SDL_GetTicks() - timePassed;
 
 	// TODO 3: We need a way to know when the whole movement has finished, so we shoud get a conditional
 	// With the variables that we have and the ones that we already implemented
 
+	// TODO 4:: inside the previous Todo's conditional we should create a switch that selects the funcion for the respective spline type.
+	// The funcions are defiuned below and the types are in the .h
 	
-	if (timeCounter < totalTime) {
-		// TODO 4:: inside the previous Todo's conditional we should create a switch that selects the funcion for the respective spline type.
-		// The funcions are defiuned below and the types are in the .h
-		switch (type) {
-		case SplineType::EASE: {
-			*position = functions.Ease(timeCounter, initialPosition, finalPosition, totalTime);
-		} break;
-		case SplineType::QUINT: {
-			*position = functions.QuintEase(timeCounter, initialPosition, finalPosition, totalTime);
-		} break;
-		case SplineType::BACK: {
-			*position = functions.BackEase(timeCounter, initialPosition, finalPosition, totalTime);
-		} break;
-		case SplineType::QUART: {
-			*position = functions.QuartEase(timeCounter, initialPosition, finalPosition, totalTime);
-		} break;
-		case SplineType::QUAD: {
-			*position = functions.QuadEase(timeCounter, initialPosition, finalPosition, totalTime);
-		} break;
-		case SplineType::EXPO: {
-			*position = functions.ExpoEase(timeCounter, initialPosition, finalPosition, totalTime);
-		} break;
-		case SplineType::CUBIC: {
-			*position = functions.CubicEase(timeCounter, initialPosition, finalPosition, totalTime);
-		} break;
-		case SplineType::CIRC: {
-			*position = functions.CircEase(timeCounter, initialPosition, finalPosition, totalTime);
-		} break;
-		default:
-			LOG("No valid EaseType");
-			break;
-		}
-	}
-	else
-		ret = false;
 
 	return ret;
 }
