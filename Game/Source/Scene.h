@@ -34,6 +34,9 @@ public:
 
 private:
 	SDL_Texture* img;
+	SDL_Rect rect;
+	bool back = true;
+	bool UI = false;
 };
 
 #endif // __SCENE_H__
