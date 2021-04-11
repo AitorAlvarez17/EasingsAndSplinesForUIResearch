@@ -1,37 +1,59 @@
 
 ## Easing and splines for UI animations
-You can use the [editor on GitHub](https://github.com/AitorAlvarez17/Easings_And_Splines_In_UI_Research/docs/README.md) to maintain and preview the content for your website in Markdown files.
+I am Aitor Alvarez, a student from the CITM grade in videogame design and development. This page is my personal research for Project 2 in Easing and splines for UI animations.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This will take you to the presentation of this subject.
 
-### Markdown
+##  Theme description
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+When creating animations for the UI in a videogame, we can follow a series of methods in order to create a decent and good looking environment. This Page is focused on the movement of objects in the screen and how to make them as smooth and clean while making them dynamic by moving them. 
+
+We will be using a method used in animation called **Easing** . And in the implementation of this method we will be using a series of mathematical functions that are called splines.
+
+Combining both concepts we can move parts of the UI like buttons, windows or text as well as all the visual components of our game giving them a aesthetic touch.
+
+
+
+## Problem Description
+
+When we are changing the position of an object on screen, we normally just change the variable directly using something close to this:
 
 ```markdown
-Syntax highlighted code block
+app->render->camera.x = 100;
 
-# Header 1
-## Header 2
-### Header 3
+rect.x = 200;
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+player->position.x = 300.0f;
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AitorAlvarez17/Easings_And_Splines_In_UI_Research/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Or if we are changing its position considering a time value we may use the delta time like this:
 
-### Support or Contact
+```markdown
+app->render->camera.x += 50 * dt;
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+rect.x -= 20 * dt;
+```
+
+
+
+But this will leave us with a basic  linear movement that we can alter changing the first value in the sequence. 
+
+This method is really useful for plain and straight to the point movement, like when you make the camera follow the player with something in the lines of:
+
+```markdown
+update(float dt)
+{
+	app->render->camera.x = player.position.x - 300;
+	app->render->camera.y = player.position.y - 200;
+}
+```
+
+
+
+But when we want to create a smooth movement animation with defined accelerations through time we can not use this method, its to simple and we would have to invest a lot of time into creating a method, and here is where the easing enters.
+
+## Easing
+
+Easing is a method used to 
