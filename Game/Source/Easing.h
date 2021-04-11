@@ -7,6 +7,36 @@
 struct SDL_Texture;
 struct SDL_Rect;
 
+enum class SplineType {
+
+	EASE,
+	EXPO,
+	CIRC,
+	QUINT,
+	QUART,
+	QUAD,
+	BACK,
+	ELASTIC,
+	CUBIC,
+
+
+
+	NONE
+};
+
+struct Esingfunctions {
+
+	int Ease(float& timePassed, const int& origin, const int& finish, const float& time);
+	int QuintEase(float& timePassed, const int& origin, const int& finish, const float& time);
+	int CircEase(float& timePassed, const int& origin, const int& finish, const float& time);
+	int BackEase(float& timePassed, const int& origin, const int& finish, const float& time);
+	int QuartEase(float& timePassed, const int& origin, const int& finish, const float& time);
+	int QuadEase(float& timePassed, const int& origin, const int& finish, const float& time);
+	int ExpoEase(float& timePassed, const int& origin, const int& finish, const float& time);
+	int CubicEase(float& timePassed, const int& origin, const int& finish, const float& time);
+
+};
+
 struct SplineInfo {
 
 	int* position = nullptr;
@@ -59,34 +89,8 @@ private:
 
 };
 
-enum class SplineType {
-
-	EASE,
-	EXPO,
-	CIRC,
-	QUINT,
-	QUART,
-	QUAD,
-	BACK,
-	ELASTIC,
-	CUBIC,
 
 
 
-	NONE
-};
-
-struct Esingfunctions {
-
-	int Ease(float& timePassed, const int& origin, const int& finish, const float& time);
-	int QuintEase(float& timePassed, const int& origin, const int& finish, const float& time);
-	int CircEase(float& timePassed, const int& origin, const int& finish, const float& time);
-	int BackEase(float& timePassed, const int& origin, const int& finish, const float& time);
-	int QuartEase(float& timePassed, const int& origin, const int& finish, const float& time);
-	int QuadEase(float& timePassed, const int& origin, const int& finish, const float& time);
-	int ExpoEase(float& timePassed, const int& origin, const int& finish, const float& time);
-	int CubicEase(float& timePassed, const int& origin, const int& finish, const float& time);
-
-};
 
 
