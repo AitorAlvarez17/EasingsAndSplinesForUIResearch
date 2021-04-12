@@ -179,3 +179,22 @@ Solution:
 This amount of functions is not neccesary, but I wanted to give an example of the amount that you can create
 
 ![TODO5olved](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/images/Todo%205%20complete.PNG?raw=true)
+
+
+### Improvements
+
+I tried to keep the code as simple as possible, but in doing so is not that complete. I would include a second variable for a movement in another axis, because now you can only move in one direction. I would also include a Spline creator for splines like the quad or quint, that just change in the amount of times the variable timePassed has been multiplied.
+
+### References
+
+http://www.gizma.com/easing/#l
+
+https://matthewlein.com/tools/ceaser
+
+https://easings.net/
+
+https://medium.com/motion-in-interaction/animation-principles-in-ui-design-understanding-easing-bea05243fe3
+
+https://es.wikipedia.org/wiki/Spline#:~:text=En%20el%20subcampo%20matem%C3%A1tico%20del,definida%20en%20porciones%20mediante%20polinomios.
+
+https://stackoverflow.com/questions/8316882/what-is-an-easing-function
