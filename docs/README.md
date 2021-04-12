@@ -56,4 +56,21 @@ But when we want to create a smooth movement animation with defined acceleration
 
 ## Easing
 
-Easing is a method used to 
+The **Easing functions** specify the rate of change of a parameter over time.
+
+The implementation of this functions allows us to move objects in a natural way, because in real life objects don't move at a constant speed all the time. They accelerate or deaccelerate and they don't stop immediately.
+
+This easing function in mathematics are called **Splines** and are used in programming because of their simplicity and easy to work with structure. On top of this they are very accurate.
+
+## Splines
+
+Here are some Spline examples with their representation:
+
+![Spline types](http://www.pixeltrollgames.com/RetroBlit/docs/doc/interpolate.gif)
+
+And here are some spline representations with a back and forward motion thanks to @febucci
+
+![@febucci on twitter](https://i.pinimg.com/originals/49/47/82/4947823a1ac8ddef3a55ef7042f4edcf.gif)
+
+
+
