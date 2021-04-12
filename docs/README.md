@@ -122,5 +122,79 @@ Then we have a class and a struct in order to keep track of the amount of Spline
 
 Then we have the main body of the class:
 
-Imagen.
+![Body](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/images/MainBody.PNG?raw=true)
 
+### TODO's
+
+I have separated all the main code into 5 TODO's:
+
+#### TODO 1
+
+Found on Easing.h
+
+![TODO1](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/images/Todo%201.PNG?raw=true)
+
+Solution:
+
+![TODO1Solved](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/images/Todo%201%20complete.PNG?raw=true)
+
+#### TODO 2
+
+Found on Easing.cpp
+
+![TODO2](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/images/Todo%202%20incomplete.PNG?raw=true)
+
+Solution:
+
+![TODO2Solved](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/images/Todo%202%20completed.PNG?raw=true)
+
+#### TODO 3
+
+Found on Easing.cpp
+
+![TODO3](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/images/Todo3%20incomplete.PNG?raw=true)
+
+Solution:
+
+![TODO3Solved](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/images/Todo%203%20complete.PNG?raw=true)
+
+#### TODO 4
+
+Found on Easing.cpp
+
+![TODO4](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/images/Todo%204%20incomplete.PNG?raw=true)
+
+Solution:
+
+![TODO4Solved](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/images/Todo%204%20complete.PNG?raw=true)
+
+#### TODO 5
+
+Found on Easing.cpp
+
+![TODO5](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/images/Todo%205%20incomplete.PNG?raw=true)
+
+Solution:
+
+This amount of functions is not neccesary, but I wanted to give an example of the amount that you can create
+
+![TODO5olved](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/images/Todo%205%20complete.PNG?raw=true)
+
+
+### Improvements
+
+I tried to keep the code as simple as possible, but in doing so is not that complete. I would include a second variable for a movement in another axis, because now you can only move in one direction. I would also include a Spline creator for splines like the quad or quint, that just change in the amount of times the variable timePassed has been multiplied.
+
+### References
+
+http://www.gizma.com/easing/#l
+
+https://matthewlein.com/tools/ceaser
+
+https://easings.net/
+
+https://medium.com/motion-in-interaction/animation-principles-in-ui-design-understanding-easing-bea05243fe3
+
+https://es.wikipedia.org/wiki/Spline#:~:text=En%20el%20subcampo%20matem%C3%A1tico%20del,definida%20en%20porciones%20mediante%20polinomios.
+
+https://stackoverflow.com/questions/8316882/what-is-an-easing-function
