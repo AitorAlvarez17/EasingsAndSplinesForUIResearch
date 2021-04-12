@@ -14,6 +14,12 @@ Combining both concepts we can move parts of the UI like buttons, windows or tex
 
 
 
+PON AQUI GIFS
+
+
+
+
+
 ## Problem Description
 
 When we are changing the position of an object on screen, we normally just change the variable directly using something close to this:
@@ -66,11 +72,33 @@ This easing function in mathematics are called **Splines** and are used in progr
 
 Here are some Spline examples with their representation:
 
-![Spline types](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/images/interpolate.gif)
-
-And here are some spline representations with a back and forward motion thanks to @febucci
-
 ![@febucci on twitter](https://i.pinimg.com/originals/49/47/82/4947823a1ac8ddef3a55ef7042f4edcf.gif)
 
+[Here](https://matthewlein.com/tools/ceaser) you can create your own splines, it could be helpful to you in the future.
 
+This splines are framed by 4 values:
+
+- **Initial Value (b):** The initial position of the object in our game.
+- **Final Value (c):** Final position on the object in our game.
+- **Current Time (t):** Time passed since the start of the movement.
+- **Duration (d):** The total time of the movement.
+
+For reference, in the code you can find each of this values as:
+
+- **Initial Value (b):** origin.
+- **Final Value (c):** finish.
+- **Current Time (t):** timePassed or timeCounter.
+- **Duration (d):** time or totalTime.
+
+**In depth explanation** of the formulas of each of the splines [here](http://www.gizma.com/easing/#l).
+
+Because of the shape of the function, we can have 3 main characteristics:
+
+- **Ease in:** The spline accelerates through time, starting slow and ending fast.
+- **Ease out:** The spline starts fast but it deaccelerates at the end.
+- **Ease In and out:** The spline has both properties, it accelerates and then deaccelerates at the end of the movement.
+
+A spline can have infinite shapes, but it can be defined also by the amount of Ease in and out that it has.
+
+PON AQUI GIFS
 
