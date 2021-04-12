@@ -118,5 +118,5 @@ This is the information that every single Spline that you create in your game wi
 
 Then we have a class and a struct in order to keep track of the amount of Splines that we have and their respective function calls
 
-
+![SplineType](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/images/SplineType.PNG?raw=true)
 

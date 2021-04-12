@@ -64,7 +64,7 @@ void Easing::CreateSpline(int* position, const int& finaPos, const float& time, 
 	if (info != nullptr)
 		splines.push_back(info);
 	else
-		LOG("ror when creating the spline");
+		LOG("Error when creating the spline");
 }
 
 
