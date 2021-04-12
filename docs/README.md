@@ -66,7 +66,7 @@ This easing function in mathematics are called **Splines** and are used in progr
 
 Here are some Spline examples with their representation:
 
-![Spline types](http://www.pixeltrollgames.com/RetroBlit/docs/doc/interpolate.gif)
+![Spline types](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/images/interpolate.gif)
 
 And here are some spline representations with a back and forward motion thanks to @febucci
 
