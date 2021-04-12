@@ -116,7 +116,11 @@ The code that I present to you is the implementation of an Easing module that al
 
 This is the information that every single Spline that you create in your game will have. In the constructor you will introduce the position of the object, the final position of the movement, the time that it will take to move and the type of Easing function that you want to use in the SplineType field.
 
-Then we have a class and a struct in order to keep track of the amount of Splines that we have and their respective function calls
+Then we have a class and a struct in order to keep track of the amount of Splines that we have and their respective function calls.
 
 ![SplineType](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/images/SplineType.PNG?raw=true)
+
+Then we have the main body of the class:
+
+Imagen.
 
