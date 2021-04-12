@@ -12,13 +12,9 @@ We will be using a method used in animation called **Easing** . And in the imple
 
 Combining both concepts we can move parts of the UI like buttons, windows or text as well as all the visual components of our game giving them a aesthetic touch.
 
+![ease](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/gifs/1.gif?raw=true)
 
-
-PON AQUI GIFS
-
-
-
-
+![ease2](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/gifs/3.gif?raw=true)
 
 ## Problem Description
 
@@ -102,7 +98,34 @@ Because of the shape of the function, we can have 3 main characteristics:
 
 A spline can have infinite shapes, but it can be defined also by the amount of Ease in and out that it has.
 
-PON AQUI GIFS
+1. Ease
+![ease](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/gifs/1.gif?raw=true)
+
+2. Circ
+![Circ](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/gifs/2.gif?raw=true)
+
+3. Back
+![Back](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/gifs/3.gif?raw=true)
+
+4. Expo
+![Expo](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/gifs/4.gif?raw=true)
+
+5. Quad
+![Quad](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/gifs/5.gif?raw=true)
+
+6. Cubic
+![Cubic](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/gifs/6.gif?raw=true)
+
+7. Quart
+![Quart](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/gifs/7.gif?raw=true)
+
+8. Quint
+![Quint](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/gifs/8.gif?raw=true)
+
+**UI**
+
+![UI](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/gifs/UI.gif?raw=true)
+
 
 ## Code
 
