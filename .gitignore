@@ -24,10 +24,14 @@
 *.la
 *.a
 *.lib
-!Game/Source/External/SDL/libx86/SDL2.lib
-!Game/Source/External/SDL/libx86/SDL2main.lib
-!Game/Source/External/SDL_image/libx86/SDL2_image.lib
-!Game/Source/External/SDL_mixer/libx86/SDL2_mixer.lib
+!handout/Game/Source/External/SDL/libx86/SDL2.lib
+!handout/Game/Source/External/SDL/libx86/SDL2main.lib
+!handout/Game/Source/External/SDL_image/libx86/SDL2_image.lib
+!handout/Game/Source/External/SDL_mixer/libx86/SDL2_mixer.lib
+!solution/Game/Source/External/SDL/libx86/SDL2.lib
+!solution/Game/Source/External/SDL/libx86/SDL2main.lib
+!solution/Game/Source/External/SDL_image/libx86/SDL2_image.lib
+!solution/Game/Source/External/SDL_mixer/libx86/SDL2_mixer.lib
 
 # Executables
 *.exe

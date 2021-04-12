@@ -53,8 +53,7 @@ bool Scene::PreUpdate()
 // Called each loop iteration
 bool Scene::Update(float dt)
 {
-	//TODO 5 having implemented the previous code, you can allready call the splines to do what you want. YOu can move for example the camera or the 
-	// rectangle created at the start to make your own tests with position and speed.
+	
 
 	if(app->input->GetKey(SDL_SCANCODE_UP) == KEY_REPEAT)
 		app->render->camera.y -= 1;
@@ -72,6 +71,8 @@ bool Scene::Update(float dt)
 
 	if (app->input->GetKey(SDL_SCANCODE_B) == KEY_DOWN) back = !back;
 
+	//TODO 5 having implemented the previous code, you can allready call the splines to do what you want. YOu can move for example the camera or the 
+	// rectangle created at the start to make your own tests with position and speed.
 
 	if (back == true)
 	{

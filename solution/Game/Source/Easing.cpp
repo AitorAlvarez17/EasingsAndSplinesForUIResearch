@@ -79,8 +79,6 @@ bool SplineInfo::Update(float dt)
 
 	// TODO 3: We need a way to know when the whole movement has finished, so we shoud get a conditional
 	// With the variables that we have and the ones that we already implemented
-
-	
 	if (timeCounter < totalTime) {
 		// TODO 4:: inside the previous Todo's conditional we should create a switch that selects the funcion for the respective spline type.
 		// The funcions are defiuned below and the types are in the .h
@@ -110,7 +108,7 @@ bool SplineInfo::Update(float dt)
 			*position = functions.CircEase(timeCounter, initialPosition, finalPosition, totalTime);
 		} break;
 		default:
-			LOG("No valid EaseType");
+			LOG("No valid SplineType");
 			break;
 		}
 	}
