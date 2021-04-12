@@ -2,7 +2,7 @@
 ## Easing and splines for UI animations
 I am Aitor Alvarez, a student from the CITM grade in videogame design and development. This page is my personal research for Project 2 in Easing and splines for UI animations.
 
-This will take you to the [presentation]() of this subject.
+This will take you to the [presentation](https://docs.google.com/presentation/d/1DchWIS5Of7QDwTispPUSkauCu0xbICoxWO3KHe7a0NE/edit?usp=sharing) of this subject.
 
 Download the code [Here](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/releases/tag/1.3).
 
