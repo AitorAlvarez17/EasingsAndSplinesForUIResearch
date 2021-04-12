@@ -98,29 +98,23 @@ Because of the shape of the function, we can have 3 main characteristics:
 
 A spline can have infinite shapes, but it can be defined also by the amount of Ease in and out that it has.
 
-1. Ease
-![ease](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/gifs/1.gif?raw=true)
+- Ease
+  ![ease](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/gifs/1.gif?raw=true)
 
-2. Circ
-![Circ](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/gifs/2.gif?raw=true)
-
-3. Back
-![Back](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/gifs/3.gif?raw=true)
-
-4. Expo
-![Expo](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/gifs/4.gif?raw=true)
-
-5. Quad
-![Quad](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/gifs/5.gif?raw=true)
-
-6. Cubic
-![Cubic](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/gifs/6.gif?raw=true)
-
-7. Quart
-![Quart](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/gifs/7.gif?raw=true)
-
-8. Quint
-![Quint](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/gifs/8.gif?raw=true)
+- Circ
+  ![Circ](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/gifs/2.gif?raw=true)
+- Back
+  ![Back](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/gifs/3.gif?raw=true)
+- Expo
+  ![Expo](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/gifs/4.gif?raw=true)
+- Quad
+  ![Quad](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/gifs/5.gif?raw=true)
+- Cubic
+  ![Cubic](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/gifs/6.gif?raw=true)
+- Quart
+  ![Quart](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/gifs/7.gif?raw=true)
+- Quint
+  ![Quint](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/gifs/8.gif?raw=true)
 
 **UI**
 
