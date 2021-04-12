@@ -72,6 +72,8 @@ This easing function in mathematics are called **Splines** and are used in progr
 
 Here are some Spline examples with their representation:
 
+![Some Splines](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/images/interpolate.gif?raw=true)
+
 ![@febucci on twitter](https://i.pinimg.com/originals/49/47/82/4947823a1ac8ddef3a55ef7042f4edcf.gif)
 
 [Here](https://matthewlein.com/tools/ceaser) you can create your own splines, it could be helpful to you in the future.
@@ -106,7 +108,7 @@ PON AQUI GIFS
 
 The code that I present to you is the implementation of an Easing module that allows us to move any object following a spline. Inside this class we can find a series of spline functions that can be modified as much as the user wants. I implemented some of this functions in order to create some examples of this implementation.
 
-![Main Struct](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/images/SplineInfo.PNG)
+![Main Struct](https://github.com/AitorAlvarez17/EasingsAndSplinesForUIResearch/blob/master/docs/images/SplineInfo.PNG?raw=true)
 
 
 
