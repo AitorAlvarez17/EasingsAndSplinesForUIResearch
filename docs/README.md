@@ -10,7 +10,7 @@ Download the code [Here](https://github.com/AitorAlvarez17/EasingsAndSplinesForU
 
 When creating animations for the UI in a videogame, we can follow a series of methods in order to create a decent and good looking environment. This Page is focused on the movement of objects in the screen and how to make them as smooth and clean while making them dynamic by moving them. 
 
-We will be using a method used in animation called **Easing** . And in the implementation of this method we will be using a series of mathematical functions that are called splines.
+We will be using a method called **Easing** used in animation. And in the implementation of this method we will be using a series of mathematical functions that are called splines.
 
 Combining both concepts we can move parts of the UI like buttons, windows or text as well as all the visual components of our game giving them a aesthetic touch.
 
